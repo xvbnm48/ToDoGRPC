@@ -1,0 +1,23 @@
+﻿syntax = "proto3";
+
+
+option chsarp_namespace = "ToDoGrpc";
+
+package todoit;
+
+
+service TodoIt {
+	rpc AddTodo (CreateTodoRequesr) returns (CreateTodoResponse);
+	rpc GetTodos (GetTodosRequest) returns (GetTodosResponse);
+	rpc UpdateTodo (UpdateTodoRequest) returns (UpdateTodoResponse);
+	rpc DeleteTodo (DeleteTodoRequest) returns (DeleteTodoResponse);
+}
+
+message CreateTodoRequesr {
+	string title = 1; 
+	string description = 2;
+}
+
+message CreateTodoResponse {
+	int32 id = 1;
+}

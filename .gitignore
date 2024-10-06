@@ -1,0 +1,49 @@
+# Visual Studio
+.vs/
+*.sln
+*.user
+*.userprefs
+*.suo
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+!**/packages/build/**
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Logs
+*.log
+
+# User-specific files
+*.db
+*.pdb
+*.mdb
+
+# Temporary files
+*.tmp
+*.temp
+
+# Other files
+*.cache
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
